@@ -1,0 +1,7 @@
+poner new repositorio dentro de la cuenta
+1 despues en el cdm escribir 
+git init
+
+2 hacer el primer commit .grabar todos los cambios
+git add .
+
