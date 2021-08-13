@@ -4,8 +4,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 
 
-import { HeroesModule } from './heroes/heroes.module';
+import { HeroesModule, } from './heroes/heroes.module';
 import { Contadormodule } from './contador/contador.module';
+import { DbzModule } from './dbz/dbz.module';
+
+
 
 
 
@@ -19,9 +22,10 @@ import { Contadormodule } from './contador/contador.module';
   //colocar modulos
   imports: [
     BrowserModule,
-    //importado de heroes.module.ts y de contador.module.ts
+    //importado de heroes.module.ts y de contador.module.ts que es la classe del modulo
     HeroesModule,
-    Contadormodule
+    Contadormodule,
+    DbzModule
   ],
   //colocar servicios
   providers: [],

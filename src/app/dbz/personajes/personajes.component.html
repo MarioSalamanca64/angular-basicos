@@ -1,0 +1,9 @@
+    <!--se creo otra componente == ng g c dbz --skipTests-->
+     <ul>
+            <!--| pays solo en agular cambia la info visualmente hace que ponga la coma 
+                codigo borrado <li *ngFor="let personaje of personajeshijo; let i = index">--->
+            <li *ngFor="let personaje of personajes; let i = index">
+                {{i+1}} {{personaje.nombre}} - {{personaje.poder | number}}
+            </li>
+        </ul>
+        

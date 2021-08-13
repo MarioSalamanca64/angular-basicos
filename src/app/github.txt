@@ -5,3 +5,14 @@ git init
 2 hacer el primer commit .grabar todos los cambios
 git add .
 
+3 crear el primer commit limpiar la consola con ctrl l
+git commit -m "primer commit"
+
+4
+git remote add origin https://github.com/MarioSalamanca64/angular-basicos.git
+git branch -M main
+git push -u origin main
+
+
+opcional recostruir node cd en el directorio del proyecto y el comando es 
+npm install 

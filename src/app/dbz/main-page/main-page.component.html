@@ -1,0 +1,30 @@
+
+
+<h1>Dragon Ball Z</h1>
+<hr>
+<div class="row">
+    <div class="col">
+        <h3>Personaje</h3>
+        <hr>
+        <!--@input de ahi viene, cambiar nombre de personages @input('data') y seria [data]
+        "personajes" vienen de main-page/main-page.components.ts  (padre)
+        [personajes] vienen de personajes/personajes.component.ts (hijo)
+        esto muestra el listado de personajes-->
+        <!--codigo borrado 
+        <app-personajes [personajeshijo]="personajespadre">-->
+        <app-personajes>
+        </app-personajes>
+  
+       
+    </div>
+
+    <div class="col">
+        <!--para que solo muestre usuarios agregados-->
+        <!--codigo borrado ya no existe el evento
+        <app-personajes (onNuevoPersonaje)="agregarNuevoPersonaje( $event )"-->
+        <app-agregar 
+            [nuevo]="nuevo">
+        </app-agregar>
+      
+    </div>
+</div>

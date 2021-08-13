@@ -10,7 +10,8 @@ import { ListadoComponent } from './listado/listado.component';
         ListadoComponent
     ],
     exports: [
-        ListadoComponent
+        ListadoComponent,
+        heroeComponent
     ],
     imports: [
         //este es el resposable que se use bien el *ngif *ngfor
@@ -18,7 +19,7 @@ import { ListadoComponent } from './listado/listado.component';
     ]
 
 })
-//HeroesModule tiene que ri en app.module.ts
+//HeroesModule tiene que ir en app.module.ts
 export class HeroesModule{
 
 }

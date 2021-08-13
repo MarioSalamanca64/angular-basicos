@@ -38,3 +38,19 @@
   .p-1 {
     padding: 1px;
   }
+  /*poner uno al lado de la otra solo por tener la clase flex*/
+  .row{
+    display: flex;
+  }
+  .col{
+    /*alargar lo mas que se peuda*/
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+
+  input{
+    display:block;
+    margin: 5px;
+  }
+
+

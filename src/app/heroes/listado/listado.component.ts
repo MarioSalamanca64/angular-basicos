@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-//crear un nuevo componente automatico == ng
+//crear un nuevo componente automatico == ng g c heroes/nombre
 @Component({
   selector: 'app-listado',
   templateUrl: './listado.component.html',

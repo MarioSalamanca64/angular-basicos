@@ -1,0 +1,34 @@
+<h3>Agregar <small>{{nuevo.nombre}}</small></h3>
+<hr>
+<!--<form (submit)="agregar( $event )"> == javascript normal pediria guardar el elvento en este caso el form-->
+
+<!--[value]hace referencia nuevo y al nombre en archivo .ts-->
+<!--() == emitir o escuchar eventos-->
+<!--[] == estableser alguna propiedad-->
+<!--evento input es cuando cambie-->
+<!--esta es una de las formas diferentes
+    [value]="nuevo.nombre"
+    (input)="cambiarNombre( $event )"
+-->
+
+<!--ngSubmit es para que guarde el evento en este caso form-->
+
+<!--[()] == consepto de Two-way data binding lo cual emite o resive un ovento actualiza o cambia propiedades
+actualiza entiempo real
+ngModel guarda el texto o el contenido del campo-->
+<form (ngSubmit)="agregar()">
+    <input 
+    type="text" 
+    placeholder="Nombre"
+    name="nombre"
+    [(ngModel)]="nuevo.nombre"
+    >
+    <input 
+    type="number" 
+    placeholder="Poder"
+    name="poder"
+    [(ngModel)]="nuevo.poder">
+    <button>
+        Agregar
+    </button>
+</form>

@@ -2,8 +2,7 @@ import { Component } from "@angular/core";
 
 @Component({
     selector: 'app-contador',
-    template:`
-            
+    template:`    
             <h1>{{titulo}}</h1>
         <!--o escribir cualquier cosa {{1+1}} {{'hola mundo'}}
         temple seria este archivo HTML.
@@ -24,10 +23,7 @@ import { Component } from "@angular/core";
         <!--<button (click)="restar()"> -1 </button>-->
         <!--<button (click)="acumular(-1)"> -1 </button>-->
         <button (click)="acumular(-base)" > - {{base}} </button>
-
-
-
-    `
+  `
 })
 
 export class ContadorComponent{
